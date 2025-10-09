@@ -119,6 +119,10 @@
 import { ref } from 'vue'
 import { useRoute } from 'vue-router'
 
+defineOptions({
+  name: 'MainNavbar'
+})
+
 const route = useRoute()
 const isMenuOpen = ref(false)
 
