@@ -120,7 +120,7 @@ import { ref } from 'vue'
 import { useRoute } from 'vue-router'
 
 defineOptions({
-  name: 'MainNavbar'
+  name: 'MainNavbar',
 })
 
 const route = useRoute()
@@ -141,6 +141,12 @@ const toggleMenu = () => {
 
 const isActive = (path: string) => {
   return route.path === path
+}
+</script>
+
+<script lang="ts">
+export default {
+  name: 'MainNavbar',
 }
 </script>
 

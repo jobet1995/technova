@@ -128,3 +128,9 @@ const navLinks = [
   { name: 'Contact', path: '/contact' },
 ]
 </script>
+
+<script lang="ts">
+export default {
+  name: 'MainFooter'
+}
+</script>
